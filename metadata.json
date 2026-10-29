@@ -1,0 +1,6 @@
+{
+  "name": "NetLeakGuard Pro",
+  "description": "سامانه حرفه‌ای و جامع تشخیص نشت IP، DNS و WebRTC و بررسی سازگاری VPN و Proxy برای ویندوز و اندروید با گزارش فنی دقیق و پشتیبانی کامل فارسی.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
