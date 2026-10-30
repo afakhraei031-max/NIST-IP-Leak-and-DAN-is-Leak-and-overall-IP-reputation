@@ -1,0 +1,17 @@
+- name: Buildalon unity-uwp-builder
+  # You may pin to the exact commit or the version.
+  # uses: buildalon/unity-uwp-builder@2f16bc56df00670021b9b58e11444c9b6867fc83
+  uses: buildalon/unity-uwp-builder@v1.0.4
+  with:
+    # The directory that contains the exported visual studio project from Unity.
+    project-path: 
+    # The configuration to use when building the visual studio project. Defaults to `Master`.
+    configuration: # optional, default is Master
+    # The architecture to use when building the visual studio project. Can be: `x86`, `x64`, `ARM`, or `ARM64`.
+    architecture: # optional, default is ARM64
+    # Additional arguments to pass to the msbuild command.
+    additional-args: # optional
+    # The type of package to generate. Can be: `sideload` or `upload`. Defaults to `sideload`.
+    package-type: # optional, default is sideload
+    # The path to the certificate to use when packaging the UWP project. Required when `package-type` is `sideload`. Defaults to the Unity generated test certificate.
+    certificate-path: # optional
